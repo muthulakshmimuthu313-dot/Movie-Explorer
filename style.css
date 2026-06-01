@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, sans-serif;
+    padding:20px;
+    background-color: cadetblue;
+}
+
+#movie-list{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+
+.card{
+    border:2px solid black;
+    box-shadow: 20px grey;
+    background-color: beige;
+    padding:20px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.card:hover{
+    transform:scale(1.03);
+    background-color: rgb(23, 130, 137);
+}
